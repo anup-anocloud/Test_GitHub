@@ -1,0 +1,157 @@
+* {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  font-family: cursive;
+  letter-spacing: 1.5px;
+}
+header nav {
+  background-color: #333;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  padding: 18px 0;
+}
+header nav .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 980px;
+  margin: auto;
+}
+header nav .content h2 {
+  text-transform: uppercase;
+}
+header nav .links {
+  display: flex;
+}
+header nav .links h4 {
+  margin-right: 12px;
+  padding: 10px;
+  background-color: #ccc;
+  color: black;
+  border-radius: 5px;
+}
+header nav .links h4:hover {
+  cursor: pointer;
+  background-color: #444;
+  color: #f7c08a;
+  transition: all 0is ease;
+}
+/* main section */
+
+header main {
+  height: 70vh;
+  background: url(/pexels-cottonbro-4069293.jpg) no-repeat center center/
+    cover;
+  opacity: 0.9;
+}
+header main .inner-content {
+  width: 850px;
+  margin: auto;
+  padding-top: 160px;
+  text-align: center;
+}
+header main .inner-content h1 {
+  font-size: 45px;
+}
+header main .inner-content p {
+  font-size: 20px;
+}
+header main .inner-content h1,
+header main .inner-content p {
+  margin: 35px 0;
+}
+header main .inner-content h1 span {
+  color: #f7c08a;
+}
+header main .inner-content button {
+  padding: 10px;
+  font-size: 16.5px;
+  background-color: #ccc;
+  outline: none;
+  border: none;
+  border-radius: 70px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+}
+header main .inner-content button:hover {
+  background-color: #444;
+  color: #f7c08a;
+  transition: all 0.2s ease;
+}
+
+/* info section */
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+}
+.info .box1 {
+  background: url(/pexels-pixabay-258154.jpg) no-repeat center
+    center/cover;
+  width: 100%;
+  height: 350px;
+}
+.info .box2 {
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+}
+.info .box2 h4 {
+  font-size: 18px;
+}
+.info .box2 h4 span {
+  color: #f7c08a;
+}
+
+.info .box2 button {
+  padding: 8px;
+  font-size: 16.5px;
+  background-color: #ccc;
+  outline: none;
+  border: none;
+  border-radius: 70px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1.1px;
+}
+.info .box2 button:hover {
+  background-color: #444;
+  color: #f7c08a;
+  transition: all 0.2s ease;
+}
+
+/* icons section */
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+.icons .box {
+  width: 100%;
+  height: 250px;
+  background-color: #ccc;
+  color: #333;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icons .mid {
+  background-color: #f7b26d;
+}
+.main-footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
